@@ -1,3 +1,6 @@
+import heroshimaThumbnail from './thumbnails/JAPAN.png';
+
+
 export interface Video {
   id: string;
   title: string;
@@ -103,8 +106,8 @@ export const videosData: Video[] = [
     title: 'The city on which the end of the world fell | Hiroshima',
     description: 'A look back at Hiroshima, the city forever changed by the atomic bomb.',
     timeSpent: '2 Weeks',
-    videoUrl: 'https://youtu.be/o1UAt6iBEFE?si=2mwcKZ2EUOy2ZgG5',
-    thumbnail: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg',
+    videoUrl: 'https://www.youtube.com/watch?v=o1UAt6iBEFE',
+    thumbnail:  heroshimaThumbnail,
     scriptUrl: '#heroshima-script.pdf',
     platform: 'youtube'
   },
