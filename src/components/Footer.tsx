@@ -1,5 +1,6 @@
-import { Mail, Youtube, Share2 } from 'lucide-react';
+import { Mail, Youtube } from 'lucide-react';
 import { resumeData } from '../data';
+import tiktokIcon from '../thumbnails/tiktok.png'; // Import your PNG
 
 export default function Footer() {
   return (
@@ -18,25 +19,34 @@ export default function Footer() {
           <div className="text-center">
             <h3 className="text-xl font-bold mb-4">Connect With Me</h3>
             <div className="flex justify-center gap-4">
+              {/* YouTube */}
               <a
                 href="https://www.youtube.com/channel/your-channel"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-red-600 p-3 rounded-lg hover:bg-red-700 transform hover:scale-110 transition-all duration-300 group"
+                className="bg-red-600 p-3 rounded-lg hover:bg-red-700 transform hover:scale-110 transition-all duration-300 group flex items-center justify-center"
               >
                 <Youtube size={20} className="group-hover:rotate-12 transition-transform" />
               </a>
+
+              {/* TikTok */}
               <a
                 href="https://www.tiktok.com/@hssnbkry"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-pink-600 p-3 rounded-lg hover:bg-pink-700 transform hover:scale-110 transition-all duration-300 group"
+                className="bg-black p-3 rounded-lg hover:bg-gray-800 transform hover:scale-110 transition-all duration-300 flex items-center justify-center"
               >
-                <Share2 size={20} className="group-hover:rotate-12 transition-transform" />
+                <img
+                  src={tiktokIcon}
+                  alt="TikTok"
+                  className="w-5 h-5"
+                />
               </a>
+
+              {/* Email */}
               <a
                 href={`mailto:${resumeData.email}`}
-                className="bg-blue-600 p-3 rounded-lg hover:bg-blue-700 transform hover:scale-110 transition-all duration-300 group"
+                className="bg-blue-600 p-3 rounded-lg hover:bg-blue-700 transform hover:scale-110 transition-all duration-300 group flex items-center justify-center"
               >
                 <Mail size={20} className="group-hover:rotate-12 transition-transform" />
               </a>

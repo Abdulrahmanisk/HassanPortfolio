@@ -18,7 +18,8 @@ export default function Portfolio() {
             Explore my latest video creations showcasing creativity, technical excellence, and storytelling skills
           </p>
           <div className="flex justify-center gap-2 mt-6">
-            <div className="w-12 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full" />
+            <div className="w-12 h-1 bg-gradient-to-r from-blue-
+            600 to-cyan-600 rounded-full" />
             <div className="w-1 h-1 bg-blue-600 rounded-full" />
             <div className="w-1 h-1 bg-blue-600 rounded-full" />
           </div>
@@ -65,7 +66,7 @@ export default function Portfolio() {
               href="https://www.tiktok.com/@hssnbkry"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-pink-600 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-300"
+  className="inline-flex items-center gap-2 bg-black text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-300"
             >
               Follow on TikTok
             </a>
