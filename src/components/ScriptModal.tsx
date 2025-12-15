@@ -1,4 +1,3 @@
-// src/components/ScriptModal.tsx
 import { X, Download } from 'lucide-react';
 import { Video } from '../data';
 
@@ -8,10 +7,10 @@ interface ScriptModalProps {
 }
 
 export default function ScriptModal({ video, onClose }: ScriptModalProps) {
-  // Handle PDF download for this video
   const handleDownload = () => {
+    if (!video.scriptUrl) return;
     const link = document.createElement('a');
-    link.href = video.scriptUrl; // Dynamic PDF per video
+    link.href = video.scriptUrl;
     link.download = `${video.title}-script.pdf`;
     document.body.appendChild(link);
     link.click();
