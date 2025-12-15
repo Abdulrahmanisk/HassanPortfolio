@@ -49,7 +49,7 @@ export const resumeData: ResumeData = {
   email: 'Hasanbakry86@gmail.com',
   youtubeSubscribers: '135K+',
   tiktokFollowers: '200K+',
-  summary: 'Content Creator & Senior Network Field Engissssneer',
+  summary: 'Multifaceted professional skilled in creating engaging content and delivering advanced network engineering solutions in the field.',
   experience: [
     {
       title: 'YouTube Content Creator',
@@ -107,7 +107,7 @@ export const resumeData: ResumeData = {
 export const videosData: Video[] = [
   {
     id: '1',
-    title: 'The city on which the end of the world fell | Hiroshima',
+    title: 'المدينة التي سقطت عليها نهاية العالم | هيروشيما',
     description: 'A look back at Hiroshima, the city forever changed by the atomic bomb.',
     timeSpent: '2 Weeks',
     videoUrl: 'https://www.youtube.com/embed/o1UAt6iBEFE', // Embed-ready
