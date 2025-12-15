@@ -49,7 +49,7 @@ export const resumeData: ResumeData = {
   email: 'Hasanbakry86@gmail.com',
   youtubeSubscribers: '135K+',
   tiktokFollowers: '200K+',
-  summary: 'Content Creator & Senior Network Field Engineer',
+  summary: 'Content Creator & Senior Network Field Engissssneer',
   experience: [
     {
       title: 'YouTube Content Creator',
