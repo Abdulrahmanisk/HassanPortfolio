@@ -106,7 +106,7 @@ export const videosData: Video[] = [
     title: 'The city on which the end of the world fell | Hiroshima',
     description: 'A look back at Hiroshima, the city forever changed by the atomic bomb.',
     timeSpent: '2 Weeks',
-    videoUrl: 'https://www.youtube.com/watch?v=o1UAt6iBEFE',
+    videoUrl: 'https://www.youtube.com/embed/watch?v=o1UAt6iBEFE',
     thumbnail:  heroshimaThumbnail,
     scriptUrl: '#heroshima-script.pdf',
     platform: 'youtube'
