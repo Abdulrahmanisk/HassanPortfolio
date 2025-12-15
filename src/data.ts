@@ -1,6 +1,6 @@
 // src/data.ts
 import heroshimaThumbnail from './thumbnails/JAPAN.png';
-import worldwar1Thumbnail from './thumbnails/first-world-war.png';
+import worldwar1Thumbnail from './thumbnails/firstworldwar.png';
 
 export interface Video {
   id: string;
