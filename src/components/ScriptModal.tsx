@@ -8,9 +8,10 @@ interface ScriptModalProps {
 }
 
 export default function ScriptModal({ video, onClose }: ScriptModalProps) {
+  // Handle PDF download for this video
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = video.scriptUrl; // Use the PDF for this specific video
+    link.href = video.scriptUrl; // Dynamic PDF per video
     link.download = `${video.title}-script.pdf`;
     document.body.appendChild(link);
     link.click();
@@ -26,6 +27,7 @@ export default function ScriptModal({ video, onClose }: ScriptModalProps) {
         className="bg-white rounded-2xl shadow-2xl max-w-3xl w-full max-h-[90vh] overflow-hidden animate-slideUp"
         onClick={(e) => e.stopPropagation()}
       >
+        {/* Header */}
         <div className="flex items-center justify-between p-6 bg-gradient-to-r from-blue-600 to-cyan-600 border-b border-gray-200">
           <h2 className="text-2xl font-bold text-white">Video Script</h2>
           <button
@@ -36,6 +38,7 @@ export default function ScriptModal({ video, onClose }: ScriptModalProps) {
           </button>
         </div>
 
+        {/* Body */}
         <div className="p-6 overflow-y-auto max-h-[calc(90vh-200px)]">
           <h3 className="text-lg font-bold text-gray-900 mb-2">{video.title}</h3>
           <p className="text-gray-600 mb-6">Production time: {video.timeSpent}</p>
@@ -52,6 +55,7 @@ export default function ScriptModal({ video, onClose }: ScriptModalProps) {
           </div>
         </div>
 
+        {/* Footer Buttons */}
         <div className="p-6 bg-gray-50 border-t border-gray-200 flex gap-4">
           <button
             onClick={handleDownload}
@@ -69,6 +73,7 @@ export default function ScriptModal({ video, onClose }: ScriptModalProps) {
         </div>
       </div>
 
+      {/* Animations */}
       <style>{`
         @keyframes fadeIn {
           from { opacity: 0; }
