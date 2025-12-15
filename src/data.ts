@@ -8,9 +8,9 @@ export interface Video {
   description: string;
   timeSpent: string;
   videoUrl: string;         // Embed-ready URL
-  thumbnail: string;        // Imported thumbnail
-  scriptUrl: string;        // Path to PDF script
-  scriptPreview: string;    // Short text preview for modal
+  thumbnail: string;        // Imported image
+  scriptUrl: string;        // PDF path in /public/scripts/
+  scriptPreview: string;    // Short preview text for modal
   platform: 'youtube' | 'tiktok';
 }
 
@@ -110,9 +110,9 @@ export const videosData: Video[] = [
     title: 'The city on which the end of the world fell | Hiroshima',
     description: 'A look back at Hiroshima, the city forever changed by the atomic bomb.',
     timeSpent: '2 Weeks',
-    videoUrl: 'https://www.youtube.com/embed/o1UAt6iBEFE',  // Correct embed URL
+    videoUrl: 'https://www.youtube.com/embed/o1UAt6iBEFE', // Embed-ready
     thumbnail: heroshimaThumbnail,
-    scriptUrl: '/scripts/heroshima-script.pdf',           // Put your PDF inside public/scripts/
+    scriptUrl: '/heroshima-script.pdf',           // Place PDF in public/scripts/
     scriptPreview: `Imagine a 19-year-old young man, sick and depressed, sitting in a small cafe eating a sandwich and drinking coffee. 
 Suddenly, a royal procession appears in front of him, featuring the heir of Austria and his wife. Shocked, the young man makes a drastic decision: he fires two shots, killing both, which triggers a global conflict, resulting in 17 million deaths. Discover the full story in this video.`,
     platform: 'youtube'
@@ -129,4 +129,3 @@ Suddenly, a royal procession appears in front of him, featuring the heir of Aust
     platform: 'youtube'
   }
 ];
-//tt
