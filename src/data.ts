@@ -39,11 +39,11 @@ export interface ResumeData {
 
 export const resumeData: ResumeData = {
   name: 'Hassan Ahmed Bakry',
-  title: 'Content Creator & Network Engineer',
+  title: 'Content Creator & Senior Network Field Engineer',
   email: 'Hasanbakry86@gmail.com',
   youtubeSubscribers: '135K+',
   tiktokFollowers: '200K+',
-  summary: 'Content Creator and Senior Network Field Engineer skilled in delivering high-quality digital content and managing mission-critical network operations. Known for creativity, technical precision, and strong problem-solving under pressure.',
+  summary: 'Content Creator & Senior Network Field Engineer',
   experience: [
     {
       title: 'YouTube Content Creator',
@@ -85,7 +85,7 @@ export const resumeData: ResumeData = {
     {
       degree: "Bachelor's in Computer & Network Engineering",
       school: 'Jazan University',
-      period: 'Jan 2020 – Aug 2024',
+      period: 'Jan 2015 – Aug 2020',
       location: 'Jazan, Saudi Arabia',
       description: 'Completed a capstone project in Networking, emphasizing practical application of engineering principles.'
     }
@@ -100,19 +100,19 @@ export const resumeData: ResumeData = {
 export const videosData: Video[] = [
   {
     id: '1',
-    title: 'Amazing Content Creation Journey',
-    description: 'A comprehensive guide on how I started my content creation journey and the lessons learned along the way.',
-    timeSpent: '2 weeks',
-    videoUrl: 'https://www.youtube.com/embed/M7u-Irpp53k',
+    title: 'The city on which the end of the world fell | Hiroshima',
+    description: 'A look back at Hiroshima, the city forever changed by the atomic bomb.',
+    timeSpent: '2 Weeks',
+    videoUrl: 'https://youtu.be/o1UAt6iBEFE?si=2mwcKZ2EUOy2ZgG5',
     thumbnail: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg',
-    scriptUrl: '#script1.pdf',
+    scriptUrl: '#heroshima-script.pdf',
     platform: 'youtube'
   },
   {
     id: '2',
     title: 'Quick TikTok Trend Tutorial',
     description: 'A fast-paced short-form video showing a trending technique that can help boost engagement on social media platforms.',
-    timeSpent: '3 days',
+    timeSpent: '3 Days',
     videoUrl: 'https://www.tiktok.com/embed/7484629383211126023',
     thumbnail: 'https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg',
     scriptUrl: '#script2.pdf',
