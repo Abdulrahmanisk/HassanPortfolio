@@ -34,7 +34,7 @@ export default function Footer() {
                 href="https://www.tiktok.com/@hssnbkry"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-black p-3 rounded-lg hover:bg-gray-800 transform hover:scale-110 transition-all duration-300 flex items-center justify-center"
+                className="bg-white p-3 rounded-lg hover:bg-gray-800 transform hover:scale-110 transition-all duration-300 flex items-center justify-center"
               >
                 <img
                   src={tiktokIcon}
