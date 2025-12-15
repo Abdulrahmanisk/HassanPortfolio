@@ -1,3 +1,4 @@
+// src/components/ScriptModal.tsx
 import { X, Download } from 'lucide-react';
 import { Video } from '../data';
 
@@ -9,7 +10,7 @@ interface ScriptModalProps {
 export default function ScriptModal({ video, onClose }: ScriptModalProps) {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/script-sample.pdf';
+    link.href = video.scriptUrl; // Use the PDF for this specific video
     link.download = `${video.title}-script.pdf`;
     document.body.appendChild(link);
     link.click();
@@ -43,19 +44,7 @@ export default function ScriptModal({ video, onClose }: ScriptModalProps) {
           <div className="bg-gray-50 rounded-lg p-6 border-2 border-gray-200">
             <div className="prose prose-sm max-w-none text-gray-700">
               <p className="font-semibold mb-4">Script Preview:</p>
-              <p className="mb-4">
-                This is a sample script preview. Your actual video script will appear here when you replace the document.
-              </p>
-              <p className="mb-4">
-                The script includes:
-              </p>
-              <ul className="list-disc pl-5 space-y-2 mb-4">
-                <li>Video introduction and hook</li>
-                <li>Main content segments</li>
-                <li>Key talking points</li>
-                <li>Call-to-action elements</li>
-                <li>Production notes and timing</li>
-              </ul>
+              <p className="mb-4">{video.scriptPreview}</p>
               <p className="text-gray-600 italic">
                 Click the Download button below to get the full script in PDF format.
               </p>
@@ -82,32 +71,17 @@ export default function ScriptModal({ video, onClose }: ScriptModalProps) {
 
       <style>{`
         @keyframes fadeIn {
-          from {
-            opacity: 0;
-          }
-          to {
-            opacity: 1;
-          }
+          from { opacity: 0; }
+          to { opacity: 1; }
         }
 
         @keyframes slideUp {
-          from {
-            transform: translateY(20px);
-            opacity: 0;
-          }
-          to {
-            transform: translateY(0);
-            opacity: 1;
-          }
+          from { transform: translateY(20px); opacity: 0; }
+          to { transform: translateY(0); opacity: 1; }
         }
 
-        .animate-fadeIn {
-          animation: fadeIn 0.3s ease-out;
-        }
-
-        .animate-slideUp {
-          animation: slideUp 0.3s ease-out;
-        }
+        .animate-fadeIn { animation: fadeIn 0.3s ease-out; }
+        .animate-slideUp { animation: slideUp 0.3s ease-out; }
       `}</style>
     </div>
   );
