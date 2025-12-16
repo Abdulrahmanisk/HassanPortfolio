@@ -20,7 +20,7 @@ export default function VideoCard({
   return (
     <div className="group h-full bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 animate-fadeInCard">
       {/* Thumbnail */}
-      <div className="relative h-48 overflow-hidden bg-gradient-to-br from-gray-200 to-gray-300">
+      <div className="relative w-full aspect-[1/1] overflow-hidden bg-gradient-to-br from-gray-200 to-gray-300">
         <img
           src={video.thumbnail}
           alt={video.title}
