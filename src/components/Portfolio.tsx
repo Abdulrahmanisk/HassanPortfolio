@@ -23,7 +23,7 @@ export default function Portfolio() {
       </div>
 
       {/* Videos Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
         {videosData.map((video, idx) => (
           <div
             key={video.id}
@@ -50,7 +50,7 @@ export default function Portfolio() {
       {/* Call to Action */}
       <div className="mt-20 text-center animate-fadeInUp">
         <p className="text-gray-600 mb-6">More videos coming soon...</p>
-        <div className="flex justify-center gap-4">
+        <div className="flex justify-center gap-4 flex-wrap">
           <a
             href="https://www.youtube.com/channel/your-channel"
             target="_blank"
