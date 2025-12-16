@@ -21,7 +21,7 @@ export default function Footer() {
             <div className="flex justify-center gap-4">
               {/* YouTube */}
               <a
-                href="https://www.youtube.com/channel/your-channel"
+                href="https://www.youtube.com/@HSSNBKRY"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-red-600 p-3 rounded-lg hover:bg-red-700 transform hover:scale-110 transition-all duration-300 group flex items-center justify-center"

@@ -10,19 +10,18 @@ export default function Portfolio() {
 
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white">
-      <div className="max-w-6xl mx-auto">
-        {/* Section Header */}
-        <div className="text-center mb-16 animate-fadeInDown">
-          <h2 className="text-5xl font-bold text-gray-900 mb-4">Featured Work</h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Explore my latest video creations showcasing creativity, technical excellence, and storytelling skills
-          </p>
-          <div className="flex justify-center gap-2 mt-6">
-            <div className="w-12 h-1 bg-gradient-to-r from-blue-
-            600 to-cyan-600 rounded-full" />
-            <div className="w-1 h-1 bg-blue-600 rounded-full" />
-            <div className="w-1 h-1 bg-blue-600 rounded-full" />
-          </div>
+<div className="text-center mb-16 animate-fadeInDown">
+  <h2 className="text-5xl font-bold text-gray-900 mb-4">Featured Work</h2>
+  <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+    Explore my latest video creations showcasing creativity, technical excellence, and storytelling skills
+  </p>
+  <div className="flex justify-center gap-2 mt-6">
+    <div className="w-12 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full" />
+    <div className="w-1 h-1 bg-blue-600 rounded-full" />
+    <div className="w-1 h-1 bg-blue-600 rounded-full" />
+  </div>
+</div>
+
         </div>
 
         {/* Videos Grid */}
