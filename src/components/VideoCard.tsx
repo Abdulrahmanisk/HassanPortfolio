@@ -17,7 +17,7 @@ export default function VideoCard({
     : 'from-pink-500 to-pink-600';
 
   return (
-    <div className="group h-full bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 animate-fadeInCard">
+    <div className="w-full max-w-sm h-full bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 animate-fadeInCard">
       {/* Thumbnail */}
       <div className="relative h-48 overflow-hidden bg-gradient-to-br from-gray-200 to-gray-300">
         <img
