@@ -127,5 +127,27 @@ Suddenly, a royal procession appears in front of him, featuring the heir of Aust
     scriptUrl: '/scripts/worldwar1-script.pdf',
     scriptPreview: `Explore the man responsible for igniting World War I. Learn how his actions caused 17 million deaths, spread disease, and reshaped the world map. This pivotal event also laid the foundation for World War II. Watch the full story in this video.`,
     platform: 'youtube'
+  },
+    {
+    id: '2',
+    title: 'World War I | The Event That Changed the World',
+    description: 'An overview of World War I and how it reshaped nations, politics, and the course of history.',
+    timeSpent: '3 Days',
+    videoUrl: 'https://www.youtube.com/embed/M7u-Irpp53k',
+    thumbnail: worldwar1Thumbnail,
+    scriptUrl: '/scripts/worldwar1-script.pdf',
+    scriptPreview: `Explore the man responsible for igniting World War I. Learn how his actions caused 17 million deaths, spread disease, and reshaped the world map. This pivotal event also laid the foundation for World War II. Watch the full story in this video.`,
+    platform: 'youtube'
+  },
+    {
+    id: '2',
+    title: 'World War I | The Event That Changed the World',
+    description: 'An overview of World War I and how it reshaped nations, politics, and the course of history.',
+    timeSpent: '3 Days',
+    videoUrl: 'https://www.youtube.com/embed/M7u-Irpp53k',
+    thumbnail: worldwar1Thumbnail,
+    scriptUrl: '/scripts/worldwar1-script.pdf',
+    scriptPreview: `Explore the man responsible for igniting World War I. Learn how his actions caused 17 million deaths, spread disease, and reshaped the world map. This pivotal event also laid the foundation for World War II. Watch the full story in this video.`,
+    platform: 'youtube'
   }
 ];
