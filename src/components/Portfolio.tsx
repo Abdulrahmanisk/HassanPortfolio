@@ -26,18 +26,13 @@ export default function Portfolio() {
       {/* Videos Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {videosData.map((video, idx) => (
-          <div
+          <VideoCard
             key={video.id}
-            style={{
-              animation: `fadeInCard 0.6s ease-out ${0.1 * idx}s both`
-            }}
-          >
-            <VideoCard
-              video={video}
-              onVideoClick={setSelectedVideo}
-              onScriptClick={setSelectedScript}
-            />
-          </div>
+            video={video}
+            onVideoClick={setSelectedVideo}
+            onScriptClick={setSelectedScript}
+            style={{ animation: `fadeInCard 0.6s ease-out ${0.1 * idx}s both` }}
+          />
         ))}
       </div>
 
@@ -103,13 +98,8 @@ export default function Portfolio() {
           to { opacity: 1; transform: translateY(0) rotateX(0); }
         }
 
-        .animate-fadeInDown {
-          animation: fadeInDown 0.6s ease-out both;
-        }
-
-        .animate-fadeInUp {
-          animation: fadeInUp 0.6s ease-out 0.3s both;
-        }
+        .animate-fadeInDown { animation: fadeInDown 0.6s ease-out both; }
+        .animate-fadeInUp { animation: fadeInUp 0.6s ease-out 0.3s both; }
       `}</style>
     </section>
   );
