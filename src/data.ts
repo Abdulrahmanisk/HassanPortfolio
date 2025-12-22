@@ -109,7 +109,7 @@ export const videosData: Video[] = [
     id: '1',
     title: 'المدينة التي سقطت عليها نهاية العالم | هيروشيما',
     description: 'في أقل من ثانية، تبخّرت مدينة، واحترق كل شيء… ظلال على الجدران، وجثث بلا ملامح. هذه ليست قصة خيال… هذه هيروشيما',
-    timeSpent: '7 Days',
+    timeSpent: '5 Days - Part-Time',
     videoUrl: 'https://www.youtube.com/embed/o1UAt6iBEFE', // Embed-ready
     thumbnail: heroshimaThumbnail,
     scriptUrl: '/heroshima.docx',           // Place PDF in public/scripts/
@@ -120,8 +120,19 @@ export const videosData: Video[] = [
     id: '2',
     title: 'الحرب العالمية الاولى | الحدث الذي غير العالم',
     description: 'رصاصة واحدة في سراييفو أشعلت حربًا غيرت العالم! في هذه الحلقة، نكشف كيف بدأت الحرب العالمية الأولى ومن أشعل فتيلها وكيف انتهت',
-    timeSpent: '7 Days',
+    timeSpent: '8 Days - Part-Time',
     videoUrl: 'https://www.youtube.com/embed/M7u-Irpp53k',
+    thumbnail: worldwar1Thumbnail,
+    scriptUrl: '/scripts/worldwar1-script.pdf',
+    scriptPreview: `Explore the man responsible for igniting World War I. Learn how his actions caused 17 million deaths, spread disease, and reshaped the world map. This pivotal event also laid the foundation for World War II. Watch the full story in this video.`,
+    platform: 'youtube'
+  },
+    {
+    id: '2',
+    title:'حبيب ضد كونر | عداوة لاتنتهي',
+    description:'القصة الحقيقية لأعنف عداوة في تاريخ اليو إف سي… من الشرارة الأولى إلى الليلة التي تغيّر فيها كل شيء',
+    timeSpent: '5 Days Part-Time',
+    videoUrl: 'https://www.youtube.com/embed/WatAx0G_hpY',
     thumbnail: worldwar1Thumbnail,
     scriptUrl: '/scripts/worldwar1-script.pdf',
     scriptPreview: `Explore the man responsible for igniting World War I. Learn how his actions caused 17 million deaths, spread disease, and reshaped the world map. This pivotal event also laid the foundation for World War II. Watch the full story in this video.`,

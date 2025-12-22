@@ -48,7 +48,7 @@ export default function ScriptModal({ video, onClose }: ScriptModalProps) {
               <p className="font-semibold mb-4">Script Preview:</p>
               <p className="mb-4">{video.scriptPreview}</p>
               <p className="text-gray-600 italic">
-                Click the Download button below to get the full script in PDF format.
+                Click the Download button below to get the full script in PDF OR DOCX format.
               </p>
             </div>
           </div>
