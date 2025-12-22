@@ -1,6 +1,8 @@
 // src/data.ts
 import heroshimaThumbnail from './thumbnails/JAPAN.png';
 import worldwar1Thumbnail from './thumbnails/firstworldwar.png';
+import ufcthumbnail from './thumbnails/ufc.png';
+
 
 export interface Video {
   id: string;
@@ -133,9 +135,9 @@ export const videosData: Video[] = [
     description:'القصة الحقيقية لأعنف عداوة في تاريخ اليو إف سي… من الشرارة الأولى إلى الليلة التي تغيّر فيها كل شيء',
     timeSpent: '5 Days Part-Time',
     videoUrl: 'https://www.youtube.com/embed/WatAx0G_hpY',
-    thumbnail: worldwar1Thumbnail,
+    thumbnail: ufcthumbnail,
     scriptUrl: '/scripts/worldwar1-script.pdf',
-    scriptPreview: `Explore the man responsible for igniting World War I. Learn how his actions caused 17 million deaths, spread disease, and reshaped the world map. This pivotal event also laid the foundation for World War II. Watch the full story in this video.`,
+    scriptPreview: 'كانت عداوة حبيب وكونور حرب مو نزال: سبّ للدين والأهل، واستفزازات كسرت كل الخطوط الحمراء… لين وصل الموضوع لاعتداء الباص وانفجار الكراهية. كونور أخذ الألقاب بالضجة والهروب، وحبيب كان ينزف إصابات ويحارب عشان بس يحصل فرصة عادلة. لما سحبوا اللقب من كونور، حبيب أخذ الحزام وصار هو البطل… ووقتها بدأ كونور يحرق الدنيا بكلامه وإهاناته قدّام العالم. ليلة 6 أكتوبر، دخلوا القفص وكل اللي انقال صار حقيقة: سيطرة حبيب، خنق، واستسلام مذل خلّى كونور يطيح قبل يطيح رسميّاً. وبعد الجرس ما انتهت القصة… القفص صار ساحة فوضى، وحبيب خرج بطلًا بلا خسارة، ثم اعتزل بعد وفاة أبوه وهو يحمل أكبر انتصار وأكبر وجع'
     platform: 'youtube'
   }
 ];
