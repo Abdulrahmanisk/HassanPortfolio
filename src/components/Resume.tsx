@@ -45,44 +45,64 @@ export default function Resume() {
               Download Resume
             </button>
           </div>
-<div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-16">
-  <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center transform hover:scale-110 transition-all duration-300 animate-fadeInUp">
-    <p className="text-3xl font-bold text-white mb-2">{resumeData.youtubeSubscribers}</p>
-    <p className="font-bold text-xl uppercase bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent">
-      YOUTUBE SUBSCRIBERS
-    </p>
-  </div>
+<div className="flex justify-center w-full">
+  <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-16 max-w-6xl w-full">
+
+    {/* YOUTUBE SUBSCRIBERS */}
     <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center transform hover:scale-110 transition-all duration-300 animate-fadeInUp">
-    <p className="text-3xl font-bold text-white mb-2">6M+</p>
-    <p className="font-bold text-xl uppercase bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent">
-      YOUTUBE VIEWS
-    </p>
-  </div>
-  <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center transform hover:scale-110 transition-all duration-300 animate-fadeInUp">
-    <p className="text-3xl font-bold text-white mb-2">{resumeData.tiktokFollowers}</p>
-    <p className="font-bold text-xl uppercase bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent">
-      TIKTOK FOLLOWERS
-    </p>
-  </div>
+      <p className="text-3xl font-bold text-white mb-2">
+        {resumeData.youtubeSubscribers}
+      </p>
+      <p className="font-bold text-xl uppercase bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent">
+        YOUTUBE SUBSCRIBERS
+      </p>
+    </div>
+
+    {/* YOUTUBE VIEWS */}
     <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center transform hover:scale-110 transition-all duration-300 animate-fadeInUp">
-    <p className="text-3xl font-bold text-white mb-2">100M+</p>
-    <p className="font-bold text-xl uppercase bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent">
-      TIKTOK VIEWS
-    </p>
-  </div>
-  <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center transform hover:scale-110 transition-all duration-300 animate-fadeInUp">
-    <p className="text-3xl font-bold text-white mb-2">5+</p>
-    <p className="font-bold text-xl uppercase bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent">
-      YEARS EXPERIENCE
-    </p>
-  </div>
-  <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center transform hover:scale-110 transition-all duration-300 animate-fadeInUp">
-    <p className="text-3xl font-bold text-white mb-2">100+</p>
-    <p className="font-bold text-xl uppercase bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent">
-      VIDEOS CREATED
-    </p>
+      <p className="text-3xl font-bold text-white mb-2">6M+</p>
+      <p className="font-bold text-xl uppercase bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent">
+        YOUTUBE VIEWS
+      </p>
+    </div>
+
+    {/* TIKTOK FOLLOWERS */}
+    <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center transform hover:scale-110 transition-all duration-300 animate-fadeInUp">
+      <p className="text-3xl font-bold text-white mb-2">
+        {resumeData.tiktokFollowers}
+      </p>
+      <p className="font-bold text-xl uppercase bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent">
+        TIKTOK FOLLOWERS
+      </p>
+    </div>
+
+    {/* TIKTOK VIEWS */}
+    <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center transform hover:scale-110 transition-all duration-300 animate-fadeInUp">
+      <p className="text-3xl font-bold text-white mb-2">100M+</p>
+      <p className="font-bold text-xl uppercase bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent">
+        TIKTOK VIEWS
+      </p>
+    </div>
+
+    {/* YEARS EXPERIENCE */}
+    <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center transform hover:scale-110 transition-all duration-300 animate-fadeInUp sm:col-span-2">
+      <p className="text-3xl font-bold text-white mb-2">5+</p>
+      <p className="font-bold text-xl uppercase bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent">
+        YEARS EXPERIENCE
+      </p>
+    </div>
+
+    {/* VIDEOS CREATED */}
+    <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center transform hover:scale-110 transition-all duration-300 animate-fadeInUp sm:col-span-2">
+      <p className="text-3xl font-bold text-white mb-2">100+</p>
+      <p className="font-bold text-xl uppercase bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent">
+        VIDEOS CREATED
+      </p>
+    </div>
+
   </div>
 </div>
+
 
         </div>
       </div>
