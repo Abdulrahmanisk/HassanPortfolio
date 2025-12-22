@@ -52,10 +52,22 @@ export default function Resume() {
       YOUTUBE SUBSCRIBERS
     </p>
   </div>
+    <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center transform hover:scale-110 transition-all duration-300 animate-fadeInUp">
+    <p className="text-3xl font-bold text-white mb-2">6M+</p>
+    <p className="font-bold text-xl uppercase bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent">
+      YOUTUBE VIEWS
+    </p>
+  </div>
   <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center transform hover:scale-110 transition-all duration-300 animate-fadeInUp">
     <p className="text-3xl font-bold text-white mb-2">{resumeData.tiktokFollowers}</p>
     <p className="font-bold text-xl uppercase bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent">
       TIKTOK FOLLOWERS
+    </p>
+  </div>
+    <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center transform hover:scale-110 transition-all duration-300 animate-fadeInUp">
+    <p className="text-3xl font-bold text-white mb-2">100M+</p>
+    <p className="font-bold text-xl uppercase bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent">
+      TIKTOK VIEWS
     </p>
   </div>
   <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center transform hover:scale-110 transition-all duration-300 animate-fadeInUp">
