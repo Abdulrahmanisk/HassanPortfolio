@@ -108,42 +108,19 @@ export const videosData: Video[] = [
   {
     id: '1',
     title: 'المدينة التي سقطت عليها نهاية العالم | هيروشيما',
-    description: 'A look back at Hiroshima, the city forever changed by the atomic bomb.',
-    timeSpent: '2 Weeks',
+    description: 'في أقل من ثانية، تبخّرت مدينة، واحترق كل شيء… ظلال على الجدران، وجثث بلا ملامح. هذه ليست قصة خيال… هذه هيروشيما',
+    timeSpent: '7 Days',
     videoUrl: 'https://www.youtube.com/embed/o1UAt6iBEFE', // Embed-ready
     thumbnail: heroshimaThumbnail,
-    scriptUrl: '/heroshima-script.pdf',           // Place PDF in public/scripts/
-    scriptPreview: `Imagine a 19-year-old young man, sick and depressed, sitting in a small cafe eating a sandwich and drinking coffee. 
-Suddenly, a royal procession appears in front of him, featuring the heir of Austria and his wife. Shocked, the young man makes a drastic decision: he fires two shots, killing both, which triggers a global conflict, resulting in 17 million deaths. Discover the full story in this video.`,
+    scriptUrl: '/heroshima.docx',           // Place PDF in public/scripts/
+    scriptPreview: `عام 1945، وفي صباح هادئ فوق سماء هيروشيما، سقط جسم معدني واحد وفتح أبواب الجحيم على مدينة كاملة. في ثوانٍ تبخّر الآلاف، وفي الساعات التالية بدأ جحيم لا يُرى اسمه الإشعاع النووي. مطر أسود، أجساد محترقة، ومدينة اختفت من الوجود بلا أي إنذار.هذه ليست قصة انفجار فقط… هذه قصة أسوأ يوم عاشته البشرية`,
     platform: 'youtube'
   },
   {
     id: '2',
-    title: 'World War I | The Event That Changed the World',
-    description: 'An overview of World War I and how it reshaped nations, politics, and the course of history.',
-    timeSpent: '3 Days',
-    videoUrl: 'https://www.youtube.com/embed/M7u-Irpp53k',
-    thumbnail: worldwar1Thumbnail,
-    scriptUrl: '/scripts/worldwar1-script.pdf',
-    scriptPreview: `Explore the man responsible for igniting World War I. Learn how his actions caused 17 million deaths, spread disease, and reshaped the world map. This pivotal event also laid the foundation for World War II. Watch the full story in this video.`,
-    platform: 'youtube'
-  },
-    {
-    id: '2',
-    title: 'World War I | The Event That Changed the World',
-    description: 'An overview of World War I and how it reshaped nations, politics, and the course of history.',
-    timeSpent: '3 Days',
-    videoUrl: 'https://www.youtube.com/embed/M7u-Irpp53k',
-    thumbnail: worldwar1Thumbnail,
-    scriptUrl: '/scripts/worldwar1-script.pdf',
-    scriptPreview: `Explore the man responsible for igniting World War I. Learn how his actions caused 17 million deaths, spread disease, and reshaped the world map. This pivotal event also laid the foundation for World War II. Watch the full story in this video.`,
-    platform: 'youtube'
-  },
-    {
-    id: '2',
-    title: 'World War I | The Event That Changed the World',
-    description: 'An overview of World War I and how it reshaped nations, politics, and the course of history.',
-    timeSpent: '3 Days',
+    title: 'الحرب العالمية الاولى | الحدث الذي غير العالم',
+    description: 'رصاصة واحدة في سراييفو أشعلت حربًا غيرت العالم! في هذه الحلقة، نكشف كيف بدأت الحرب العالمية الأولى ومن أشعل فتيلها وكيف انتهت',
+    timeSpent: '7 Days',
     videoUrl: 'https://www.youtube.com/embed/M7u-Irpp53k',
     thumbnail: worldwar1Thumbnail,
     scriptUrl: '/scripts/worldwar1-script.pdf',
